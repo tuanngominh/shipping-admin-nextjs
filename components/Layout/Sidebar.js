@@ -64,7 +64,7 @@ const UserInfo = () => (
 class SidebarMenu extends Component {
   state = {
     menuItems: [
-      {label: 'Orders', icon: 'shopping_cart', link: '/orders', value: 1},
+      {label: 'Orders', icon: 'shopping_cart', link: '/', value: 1},
       {label: 'Shipments', icon: 'local_shipping', link: '/shipments', value: 2},
       {label: 'Returns', icon: 'keyboard_return', link: '/returns', value: 3},
       {label: 'Reports', icon: 'view_quilt', link: '/reports', value: 4},
