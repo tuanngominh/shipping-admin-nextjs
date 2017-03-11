@@ -18,3 +18,6 @@ yarn-error.log*
 
 # only store SASS file in source control
 src/**/*.css
+
+# nextjs
+.next/**/*

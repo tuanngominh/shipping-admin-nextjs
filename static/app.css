@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #E0F2F1; }
+
+.container {
+  padding: 1rem; }
+
+.container-fluid {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important; }
+
+@media (max-width: 575px) {
+  .container-fluid {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important; }
+  .col-xs {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important; } }
+
+@media (max-width: 575px) {
+  .hide-mobile {
+    display: none; } }
+
+.mobile-menu {
+  display: block; }
+
+.desktop-menu {
+  display: none; }
+
+@media (min-width: 576px) {
+  /* header style */
+  .desktop-menu {
+    display: block; }
+  .mobile-menu {
+    display: none !important; } }
+
+@media (max-width: 575px) {
+  .toolbar {
+    padding-right: 0px !important; } }

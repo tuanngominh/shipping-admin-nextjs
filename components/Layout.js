@@ -1,13 +1,9 @@
 import React, { Component } from 'react'
 
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
+import Header from './Layout/Header'
+import Sidebar from './Layout/Sidebar'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import muiTheme from './muiTheme'
-
-// Needed for onTouchTap
-import injectTapEventPlugin from 'react-tap-event-plugin'
-injectTapEventPlugin()
 
 class App extends Component {
   state = {

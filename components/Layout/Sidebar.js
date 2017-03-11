@@ -8,7 +8,7 @@ import Avatar from 'material-ui/Avatar'
 import FontIcon from 'material-ui/FontIcon'
 import {Card, CardHeader} from 'material-ui/Card'
 import {List, ListItem, makeSelectable} from 'material-ui/List'
-import {Link} from 'react-router'
+import Router from 'next/router'
 
 let SelectableList = makeSelectable(List)
 function wrapState(ComposedComponent) {
@@ -82,7 +82,7 @@ class SidebarMenu extends Component {
               style={{color: grey500}} 
               leftIcon={<FontIcon className="material-icons" color={grey500}>{menuItem.icon}</FontIcon>}
               value={menuItem.value}
-              containerElement={<Link to={menuItem.link} />}
+              onClick={() => {Router.push(menuItem.link)}}
              />
           ))
         }
