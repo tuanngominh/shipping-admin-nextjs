@@ -1,0 +1,17 @@
+.mobile-menu {
+  display: block;
+}
+.desktop-menu {
+  display: none;
+}
+
+//none mobile style
+@media (min-width: $smMin) {
+  /* header style */
+  .desktop-menu {
+    display: block;
+  }
+  .mobile-menu {
+    display: none !important;
+  }
+}

@@ -1,0 +1,7 @@
+//mobile style
+@media (max-width: $sxMax) {
+  .toolbar {
+    //remove right padding so we have more space for other element
+    padding-right: 0px !important;
+  }  
+} 

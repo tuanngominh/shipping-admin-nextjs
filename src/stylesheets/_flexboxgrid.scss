@@ -1,0 +1,21 @@
+//fix horizontal scrollbar
+//see: https://github.com/kristoferjoseph/flexboxgrid/issues/144#issuecomment-275055977
+.container { 
+  padding: 1rem; 
+}
+
+.container-fluid {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+@media (max-width: $sxMax) {
+  .container-fluid {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;  
+  }
+  .col-xs {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;      
+  }
+}
